@@ -131,4 +131,24 @@ footer{
       border-bottom: 1px solid rgb(75, 75, 75);
       margin: 0 auto;
     }
+    #form{
+        margin: 0 auto;
+        width: fit-content;
+    }
+    lavel{
+        width: fit-content;
+        margin: 10px 0;
+    }
+    input[type="submit"]{
+        width: 200px;
+        height: 100px;
+        margin: 0 auto;
+        font-size: 110%;
+        font-family: "Zen Maru Gothic", serif;
+        font-style: normal;
+        border: solid 10px #0F5474;
+        border-radius: 10px;
+        background-color: aliceblue;
+        color: rgb(75, 75, 75);
+    }
 }

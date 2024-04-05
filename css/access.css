@@ -8,92 +8,119 @@ body {
     font-family: "Zen Maru Gothic", serif;
     font-style: normal;
 }
-#all{
-    width: fit-content;
-    margin: 0 auto;
-}
-a{
+
+a {
     text-decoration: none;
     color: #0F5474;
 }
-#all h1 img{
-    width:130px;
+
+#all h1 img {
+    width: 130px;
     height: auto;
 }
-#index{
+
+#index {
     margin: 0 auto;
-    width:700px;
+    width: 700px;
     background-color: aliceblue;
     padding: 30px;
     border-radius: 10px;
-  }
+}
 
-  /* header内のnav要素 */
-  #flex{
+/* header内のnav要素 */
+#flex {
     display: flex;
     justify-content: space-between;
     background-attachment: fixed;
 }
-  nav ul{
-  list-style-type: none;
-  display: block;
-  margin: 10px auto;
-  width: fit-content;
+
+nav ul {
+    list-style-type: none;
+    display: flex;
 }
-nav ul li{
-  padding-right: 10px;
-  /* text-align: center; */
-  padding: 10px;
-  border-bottom: 1px solid rgb(75, 75, 75);
-  margin: 0 auto;
+
+nav ul li {
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 10px;
 }
-nav ul li img{
+
+nav ul li img {
     width: 30px;
     margin: 0 auto;
 }
+
 main {
     margin-top: 45px;
 }
+#out{
+    padding-left: 500px;
+    padding-top: 20px;
+}
 
+#che{
+    text-align: center;
+}
 #map img {
     width: 570px;
     height: 450px;
 }
-
+/* footer */
+footer {
+    background-color: #0F5474;
+    color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+  }
+    
 @media screen and (max-width: 768px) {
-    #all{
+    #all {
         width: fit-content;
         margin: 0 auto;
     }
-    a{
+
+    a {
         text-decoration: none;
         color: #0F5474;
     }
-    #all h1 img{
-        width:130px;
+
+    #all h1 img {
+        width: 130px;
         height: auto;
     }
-    #flex{
+
+    #flex {
         display: block;
         background-attachment: fixed;
-    } 
-    nav ul{
-      list-style-type: none;
-      display: block;
-      margin: 10px auto;
-      width: fit-content;
-    }
-    nav ul li{
-      padding-right: 10px;
-      /* text-align: center; */
-      padding: 10px;
-      border-bottom: 1px solid rgb(75, 75, 75);
-      margin: 0 auto;
-    }
-    nav ul li img{
-        width: 30px;
+      }
+    
+      nav ul {
+        list-style-type: none;
+        display: block;
+        margin: 10px auto;
+        width: fit-content;
+      }
+    
+      nav ul li {
+        padding-right: 10px;
+        /* text-align: center; */
+        padding: 10px;
+        border-bottom: 1px solid rgb(75, 75, 75);
         margin: 0 auto;
-    }     
+      }
+    
+    
+    main {
+        margin-top: 45px;
+    }
+    
+    #map img {
+        width: 570px;
+        height: 450px;
+    }    
+
     #map {
         width: 75%;
     }
@@ -114,11 +141,12 @@ main {
     #acce {
         margin-top: 40px;
     }
-    #index{
+
+    #index {
         margin: 0 auto;
-        width:700px;
+        width: 700px;
         background-color: aliceblue;
         padding: 30px;
         border-radius: 10px;
-    }  
+    }
 }

@@ -8,10 +8,6 @@ body{
     font-family: "Zen Maru Gothic", serif;
     font-style: normal;
 }
-#all{
-    width: fit-content;
-    margin:0 auto;
-}
 a{
     text-decoration: none;
     color: #0F5474;
@@ -50,10 +46,13 @@ nav ul li img{
     width: 30px;
     margin: 0 auto;
 }
-
 main h1{
+    text-align: center;
     margin: 50px 0;
     font-size: 40px;
+}
+#out{
+    padding-left: 500px;
 }
 #tower{
     padding-bottom: 20px;
@@ -104,6 +103,14 @@ main h1{
     width: 320px;
     height: 250px;
 }
+/* footer */
+footer {
+    background-color: #0F5474;
+    color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+  }
+    
 @media screen and (max-width:768px){
     #all{
         width: fit-content;
