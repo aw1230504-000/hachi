@@ -112,35 +112,34 @@ footer {
   }
     
 @media screen and (max-width:768px){
-    #all{
+    #index {
+        margin: 0 10px;
         width: fit-content;
-        margin: 0 auto;
-    }
-    a{
-        text-decoration: none;
-        color: #0F5474;
-    }
-    #all h1 img{
-        width:130px;
-        height: auto;
-    }
-    #flex{
+        background-color: aliceblue;
+        padding: 30px;
+        border-radius: 10px;
+      }
+    
+      #flex {
         display: block;
         background-attachment: fixed;
-    } 
-    nav ul{
-      list-style-type: none;
-      display: block;
-      margin: 10px auto;
-      width: fit-content;
-    }
-    nav ul li{
-      padding-right: 10px;
-      /* text-align: center; */
-      padding: 10px;
-      border-bottom: 1px solid rgb(75, 75, 75);
-      margin: 0 auto;
-    }    
+      }
+    
+      nav ul {
+        list-style-type: none;
+        display: block;
+        margin: 10px auto;
+        width: fit-content;
+      }
+    
+      nav ul li {
+        padding-right: 10px;
+        /* text-align: center; */
+        padding: 10px;
+        border-bottom: 1px solid rgb(75, 75, 75);
+        margin: 0 auto;
+      }
+    
     #index{
       margin: 0 auto;
       width:700px;
@@ -148,7 +147,39 @@ footer {
       padding: 30px;
       border-radius: 10px;
     }
-    #zoo{
-        display: block
+    main h1{
+        text-align: center;
+        margin: 50px 0;
+        font-size: 40px;
+    }    
+    #out{
+        padding-left: 0;
     }
+    #tower{
+        padding-bottom: 20px;
+    }
+    #car{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #ado{
+        padding-bottom: 20px;
+    }
+    #hanami{
+        padding-bottom: 20px;
+    }
+    #teien{
+        padding-bottom: 20px;
+    }
+    #animal{
+        padding-bottom: 20px;
+    }
+        #zoo{
+        display: block
+    }  footer {
+        background-color: #0F5474;
+        color: aliceblue;
+        margin: 0 auto;
+      }
+    
 }

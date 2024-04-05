@@ -256,7 +256,12 @@ footer {
   #ac_flex {
     display: block;
     margin: 0 auto;
-    width: fit-content;
+    width: auto;
+  }
+  iframe{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
   }
 
   #access {
